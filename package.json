@@ -1,11 +1,1 @@
-{
-  "name": "elliot_demo",
-  "version": "1.0.0",
-  "description": "Hello this will be my first local push!",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
-}
+{}
