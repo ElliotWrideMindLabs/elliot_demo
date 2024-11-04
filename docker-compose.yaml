@@ -1,0 +1,10 @@
+version: '3.8'  # or whatever version you're using
+
+services:
+  your_service_name:
+    image: your_image_name
+    volumes:
+      # Mounting package.json and package-lock.json
+      - ./package.json:/app/package.json
+      - ./package-lock.json:/app/package-lock.json
+    # other configurations like ports, environment, etc.
